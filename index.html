@@ -1,48 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mourtada's Portfolio</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to my Portfolio</title>
+    <link  rel="icon" href="me fll profil pic.jpg" class="momo">
 </head>
-<body>
-  <div class="container">
-    <!-- Sidebar -->
-    <aside class="sidebar"> 
-      <div class="profile">
-        <img src="me fll profil pic.jpg" alt="Mortada" class="profile-photo">
-        <h2>Mourtada</h2>
-        <p class="job-title">Robotics Engineer</p>
-        <div class="contact-info">
-          <p><span>Email:</span> taidimortada@gmail.com </p>
-          <p><span>Phone:</span> 0645689088 </p>
+    
+<body id="bg-img">
+    <header>
+        <div class="menu-bar">
+            <div class="menu-btn">
+                <div class="btn-line"></div>
+                <div class="btn-line"></div>
+                <div class="btn-line"></div>
+            </div>
         </div>
-      </div>
-      <div class="social-links">
-        <a href="https://github.com/taidimortada">GitHub</a>
-        <a href="https://www.instagram.com/mortada.taidi.laamiri/?__pwa=1">Instagram</a>
-      </div>
-    </aside>
+        <nav class="menu">
+            <div class="menu-branding">
+                <div class="portrait"></div>
+            </div>
+            <ul class="menu-nav">
+                <li><a href="#home" class="nav-item">Home</a></li>
+                <li><a href="#about" class="nav-item">About</a></li>
+            </ul>
+        </nav>
+    </header>
 
-    <!-- Main Content -->
-    <main class="main-content">
-      <!-- About Me Section -->
-      <section class="about-me">
-        <h1>About Me</h1>
-        <p>
-          I am Mortada, a robotics engineer specializing in advanced robotic systems and automation. I design and implement innovative solutions using platforms such as Arduino, Raspberry Pi, and AI-driven algorithms. My passion lies in creating cutting-edge robotics projects for both competition and real-world applications.
-        </p>
-      </section>
-
-      <!-- Why I Participate Section -->
-      <section class="what-i-do">
-        <h1>Why I Participate in FLL Competitions</h1>
-        <p>
-          This competition has been an incredible journey for me. It’s not just about the challenge, but about learning, growing, and pushing my limits. Since this is my last year to participate, I want to give it everything I’ve got and make it a memorable experience. Robotics has shaped my career, and this is my chance to leave a mark!
-        </p>
-      </section>
-    </main>
-  </div>
+    <main id="home">
+        <h1 class="lg-heading">
+            Mourtada <span class="text-secondary">Taidi Laamiri</span>
+        </h1>
+        <h2>I'm a
+            <span class="txt-type text-secondary" data-waiting-time="1000" data-words='["Roboticien","Programmer","3D Designer","Web Developer", "Game Developer"]'></span>
+        </h2>
+        <div class="socials">
+            <a href="https://mail.google.com/mail/u/0/?fs=1&to=taidimortad@gmail.com&tf=cm" target="_blank">
+              <i class="fa fa-envelope fa-2x"></i>
+              </a>
+            <a href="https://www.instagram.com/mortada.taidi.laamiri/" target="_blank">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="https://github.com/taidimortada" target="_blank">
+              <i class="fa-brands fa-github"></i>
+            </a>
+        </div>
+    <script src="script.js"></script>
 </body>
 </html>
